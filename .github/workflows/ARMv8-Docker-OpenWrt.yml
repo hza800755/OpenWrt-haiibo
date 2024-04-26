@@ -13,6 +13,7 @@ env:
   CLASH_KERNEL: arm64
   DOCKER_BUILD: buildImageX.sh
   DOCKER_IMAGE: hza800755/openwrt-aarch64
+  TAG: Plus
   TZ: Asia/Shanghai
 
 jobs:
