@@ -31,7 +31,8 @@ jobs:
           tags: my_tag:latest
           load: true
           cache-from: type=gha
-          cache-to: type=gha,mode=max    
+          cache-to: type=gha,mode=max 
+          
     - name: Checkout
       uses: actions/checkout@main
 
