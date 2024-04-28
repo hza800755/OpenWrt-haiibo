@@ -6,8 +6,8 @@ on:
     - cron: 0 0 * * 6
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/istoreos/istoreos
+  REPO_BRANCH: istoreos-23.05
   CONFIG_FILE: configs/armv8-docker-mini.config
   DIY_SCRIPT: diy-mini.sh
   CLASH_KERNEL: arm64
